@@ -22,9 +22,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="alien_invasion.py" />
+    <Compile Include="alien.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bullet.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="game_functions.py" />
     <Compile Include="settings.py" />
     <Compile Include="ship.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
